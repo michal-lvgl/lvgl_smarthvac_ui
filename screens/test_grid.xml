@@ -1,0 +1,27 @@
+<screen>
+	<view
+		style_layout="flex"
+		flex_flow="column_wrap"
+		style_margin_all="0"
+		style_border_width="0"
+		style_pad_all="0"
+		style_outline_width="0"
+		style_flex_cross_place="center"
+		scrollable="false"
+	>
+		<temp_display caption="Solar Panel" />
+		<temp_display caption="Tank Top" />
+		<temp_display caption="Tank Middle" />
+		<temp_display caption="Tank Bottom" />
+		<temp_display caption="Heating Return" />
+		<temp_display caption="External" />
+		<temp_display caption="Livingroom" />
+		<temp_display caption="Solar Panel" />
+		<temp_display caption="Tank Top" />
+		<temp_display caption="Tank Middle" />
+		<temp_display caption="Tank Bottom" />
+		<temp_display caption="Heating Return" />
+		<temp_display caption="External" />
+		<temp_display caption="Livingroom" />
+	</view>
+</screen>

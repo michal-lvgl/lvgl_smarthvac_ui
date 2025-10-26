@@ -1,0 +1,30 @@
+<component>
+	<api>
+		<prop name="caption" type="string" default="Sensor Name" />
+		<prop name="value" type="int" default="232" />
+	</api>
+	<styles>
+		<style
+			name="display"
+			layout="flex"
+			flex_flow="row"
+			width="content"
+			height="content"
+			margin_all="0"
+			border_width="0"
+			pad_all="0"
+			outline_width="0"
+		/>
+		<style name="display_smaller_font" bg_color="#aabbcc" />
+	</styles>
+	<view extends="lv_obj">
+		<style name="display" />
+
+		<lv_label text="$caption" style_max_width="100" style_min_width="75" style_translate_y="10" />
+
+		<style name="display_smaller_font" selector="focused" />
+		<lv_spinbox digit_count="3" dec_point_pos="2" value="$value" width="75" align="right_mid">
+			<lv_label text="°C" align="right_mid" />
+		</lv_spinbox>
+	</view>
+</component>
